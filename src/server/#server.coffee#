@@ -1,9 +1,0 @@
-Meteor.startup ->
-  Meteor.publish "count", ->
-    common.Count.find {}
-
-  Meteor.methods
-    click_button: ->
-      
-      common.Count.insert(common.key) unless common.count()
-      common.Count.update(common.key, $inc: {count: 1})
