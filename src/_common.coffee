@@ -25,7 +25,7 @@ class Counter
   startup: ->
     @clear() unless @count()
     @collection.allow update: (userId, doc, fields, modifier) =>
-      _.isEqual(modifier, @inc_modifier)
+      userId and _.isEqual(modifier, @inc_modifier)
 
 if this.p
   console.log "this has 'p' already."
