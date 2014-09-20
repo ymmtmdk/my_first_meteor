@@ -1,6 +1,7 @@
 simple meteor app.
 
 * using coffeescript.
+* using accounts.
 * removed insecure.
 * removed autopublish.
 
