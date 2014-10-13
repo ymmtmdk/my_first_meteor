@@ -7,7 +7,5 @@ simple meteor app.
 * removed autopublish.
 
 ```
-sh create.sh
-cd my_first_meteor
 meteor run
 ```
